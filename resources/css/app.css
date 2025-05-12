@@ -1,12 +1,53 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source "../**/*.blade.php";
-@source "../**/*.js";
-@source "../**/*.vue";
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+html {
+    scroll-behavior: smooth;
 }
+
+/* File: resources/css/app.css - Tambahkan ini di akhir file CSS Anda */
+
+/* Styling untuk container swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 50px; /* Memberi ruang untuk pagination */
+  }
+  
+  /* Styling untuk slide swiper */
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  /* Kustomisasi tombol navigasi */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #10b981; /* warna emerald-500 */
+  }
+  
+  /* Kustomisasi pagination */
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #10b981; /* warna emerald-500 */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
+  }
