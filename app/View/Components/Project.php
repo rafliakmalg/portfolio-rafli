@@ -26,7 +26,7 @@ class Project extends Component
             [
                 "category" => "ERP",
                 "title" => "WMS Web",
-                "description" => "Warehouse management dashboard for stock per warehouse, product movements, handovers, and stock adjustments, with an embedded AI assistant chat, backed by a Laravel REST API (Sanctum auth, role-based access). Recreated from the system I designed at work",
+                "description" => "Warehouse management dashboard for stock per warehouse, product movements, handovers, and stock adjustments, with an embedded AI assistant chat, backed by a Laravel REST API (Sanctum auth, role-based access)",
                 "image" => "img/projects/wms-web.jpg",
                 "tags" => ["React", "TypeScript", "Laravel", "REST API"],
                 "link" => ""
@@ -34,7 +34,7 @@ class Project extends Component
             [
                 "category" => "AI",
                 "title" => "Assistant API",
-                "description" => "AI assistant backend built with Laravel AI agents and tools, with chat and conversation history endpoints and per-site token authentication. Recreated from the design I made at work",
+                "description" => "AI assistant backend built with Laravel AI agents and tools, with chat and conversation history endpoints and per-site token authentication",
                 "image" => "img/projects/assistant.jpg",
                 "tags" => ["Laravel", "Laravel AI", "AI Agent", "REST API"],
                 "link" => ""
