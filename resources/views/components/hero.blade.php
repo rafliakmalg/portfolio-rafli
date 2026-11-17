@@ -1,12 +1,12 @@
 <!-- Hero Section -->
 <div id="about" class="relative bg-gradient-to-b from-lime-50 to-lime-100 pt-16 overflow-hidden min-h-screen">
     <!-- Flex Container for Desktop Layout -->
-    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between max-w-screen-xl">
+    <div class="container mx-auto px-6 md:px-10 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-8 max-w-screen-xl">
         <!-- Main Content Container -->
         <div
             class="w-full md:w-3/5 mb-10 md:mb-0 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-700 ease-out relative z-10">
             <!-- Heading -->
-            <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight text-center md:text-left">
                 <span class="block">Welcome to</span>
                 <span class="block text-emerald-500">Rafli Akmal Gunawan's</span>
                 <span class="block">Portfolio</span>
@@ -14,7 +14,7 @@
 
             <!-- Subheading -->
             <p class="text-lg md:text-xl text-gray-600 max-w-2xl mb-8 leading-relaxed text-center md:text-left mx-auto md:mx-0">
-                Software Developer specializing in ERP system development and full-stack web applications. Experienced in building scalable business solutions, automating workflows, and managing Linux-based environments to enhance operational efficiency.
+                Software Developer experienced in ERP development, API integration, and technical documentation. I turn business needs into process flows, database structures, approval logic, and working features, using Laravel, MySQL, React, and Next.js.
             </p>
 
             <div class="flex flex-wrap justify-center md:justify-start gap-4 mb-10">
@@ -24,17 +24,22 @@
                 </div>
                 <div class="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
                     <i class="fa-solid fa-database text-emerald-500"></i>
-                    <span class="text-gray-700">SQL</span>
+                    <span class="text-gray-700">MySQL</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
+                    <i class="fa-brands fa-react text-emerald-500"></i>
+                    <span class="text-gray-700">React</span>
+                </div>
+                <div class="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
+                    <i class="fa-solid fa-code text-emerald-500"></i>
+                    <span class="text-gray-700">Next.js</span>
                 </div>
                 <div class="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
                     <i class="fa-brands fa-linux text-emerald-500"></i>
                     <span class="text-gray-700">Linux</span>
                 </div>
-                <div class="flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm">
-                    <i class="fa-solid fa-server text-emerald-500"></i>
-                    <span class="text-gray-700">System Admin</span>
-                </div>
             </div>
+
 
             <!-- CTA Buttons -->
             <div class="flex flex-wrap justify-center md:justify-start gap-4">

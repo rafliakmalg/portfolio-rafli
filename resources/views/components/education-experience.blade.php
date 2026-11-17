@@ -22,9 +22,9 @@
                         <!-- Education Item 1 -->
                         <div class="relative flex">
                             <div class="ml-6">
-                                <p class="text-gray-500 text-sm">2020-2024</p>
+                                <p class="text-gray-500 text-sm">Aug 2020 - Jul 2024</p>
                                 <h4 class="text-xl font-bold text-gray-900 mt-1">Universitas Negeri Jakarta</h4>
-                                <p class="text-gray-600 mt-1">Ilmu Komputer</p>
+                                <p class="text-gray-600 mt-1">Ilmu Komputer, GPA 3.68/4.00</p>
                             </div>
                         </div>
                         <!-- Education Item 2 -->
@@ -61,28 +61,28 @@
                     <!-- Vertical line -->
                     <div class="absolute left-3 top-0 h-full border-l-2 border-emerald-500"></div>
                     <div class="space-y-8">
-                        <!-- Work Item 1 -->
+                        <!-- Work Item -->
                         <div class="relative flex">
                             <div class="ml-6">
-                                <p class="text-gray-500 text-sm">2024-Present</p>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">IT Programmer / Software Engineer</h4>
-                                <p class="text-gray-600 mt-1">PT Nose Herbal Indo</p>
-                            </div>
-                        </div>
-                        <!-- Work Item 2 -->
-                        <div class="relative flex">
-                            <div class="ml-6">
-                                <p class="text-gray-500 text-sm">2024</p>
+                                <p class="text-gray-500 text-sm">Nov 2025 - Nov 2026</p>
                                 <h4 class="text-xl font-bold text-gray-900 mt-1">Software Developer</h4>
-                                <p class="text-gray-600 mt-1">Human Initiative</p>
+                                <p class="text-gray-600 mt-1">PT Unggul Mitra Solusi</p>
                             </div>
                         </div>
-                        <!-- Work Item 3 -->
+                        <!-- Work Item -->
                         <div class="relative flex">
                             <div class="ml-6">
-                                <p class="text-gray-500 text-sm">2022-2024</p>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Programmer</h4>
-                                <p class="text-gray-600 mt-1">Pustikom Universitas Negeri Jakarta</p>
+                                <p class="text-gray-500 text-sm">Aug 2024 - Nov 2025</p>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Software Developer | IT Staff</h4>
+                                <p class="text-gray-600 mt-1">PT Nose Herbalindo</p>
+                            </div>
+                        </div>
+                        <!-- Work Item -->
+                        <div class="relative flex">
+                            <div class="ml-6">
+                                <p class="text-gray-500 text-sm">Feb 2022 - Jul 2024</p>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Junior Software Developer</h4>
+                                <p class="text-gray-600 mt-1">Universitas Negeri Jakarta</p>
                             </div>
                         </div>
                     </div>

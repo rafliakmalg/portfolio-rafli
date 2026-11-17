@@ -6,8 +6,8 @@
             <span class="text-emerald-500 font-medium">My Work</span>
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">Featured Projects</h2>
             <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
-                Explore my portfolio of data-driven projects, where I transform complex datasets into meaningful
-                insights and solutions.
+                ERP systems, REST APIs, and web platforms I have built, from internal business tools to
+                public-facing websites.
             </p>
         </div>
 
@@ -19,8 +19,14 @@
                     class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-500 opacity-0 project-animate"
                     data-animation="fade-up" data-delay="{{ $index * 200 }}">
                     <div class="relative group">
-                        <img src="{{ asset($project['image']) }}" alt="{{ $project['title'] }}"
-                            class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" />
+                        @if ($project['image'])
+                            <img src="{{ asset($project['image']) }}" alt="{{ $project['title'] }}"
+                                class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105" />
+                        @else
+                            <div class="w-full h-48 bg-gradient-to-br from-emerald-400 to-lime-300 flex items-center justify-center">
+                                <span class="text-white text-2xl font-bold px-4 text-center">{{ $project['title'] }}</span>
+                            </div>
+                        @endif
                         <div class="absolute top-4 left-4">
                             <span
                                 class="px-3 py-1 bg-emerald-500 text-white text-sm rounded-full">{{ $project['category'] }}</span>

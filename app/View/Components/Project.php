@@ -17,6 +17,30 @@ class Project extends Component
         $this->projects = $projects = [
             [
                 "category" => "Profile Website",
+                "title" => "MICEfy Event",
+                "description" => "A bilingual event-content website with a Filament CMS for events, FAQs, testimonials, partners, and media. Features multilingual URLs, scheduling, filtering, and S3-compatible image storage",
+                "image" => "img/projects/micefy.jpg",
+                "tags" => ["Laravel", "Filament", "MySQL", "Alpine.js"],
+                "link" => "https://micefyevent.com/"
+            ],
+            [
+                "category" => "ERP",
+                "title" => "WMS Web",
+                "description" => "Warehouse management dashboard for stock per warehouse, product movements, handovers, and stock adjustments, with an embedded AI assistant chat, backed by a Laravel REST API (Sanctum auth, role-based access). Recreated from the system I designed at work",
+                "image" => "img/projects/wms-web.jpg",
+                "tags" => ["React", "TypeScript", "Laravel", "REST API"],
+                "link" => ""
+            ],
+            [
+                "category" => "AI",
+                "title" => "Assistant API",
+                "description" => "AI assistant backend built with Laravel AI agents and tools, with chat and conversation history endpoints and per-site token authentication. Recreated from the design I made at work",
+                "image" => "img/projects/assistant.jpg",
+                "tags" => ["Laravel", "Laravel AI", "AI Agent", "REST API"],
+                "link" => ""
+            ],
+            [
+                "category" => "Profile Website",
                 "title" => "Santorini Beach Resort",
                 "description" => "A comprehensive profile website for Santorini Beach Resort, built with Filament Laravel CMS to provide an easily manageable and informative online presence",
                 "image" => "img/projects/santorini.png",
